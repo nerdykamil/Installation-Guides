@@ -1,0 +1,14 @@
+OS: Ubuntu 16.04
+GPU: GeForce GTX 105
+
+How to run docker:
+
+1. Install using the following link:
+	 https://docs.docker.com/install/linux/docker-ce/ubuntu/#upgrade-docker-ce
+2. Get the nvidia docker from here:
+	https://github.com/NVIDIA/nvidia-docker
+3. Setup nvidia as runtime in docker using following link:
+	https://github.com/nvidia/nvidia-container-runtime#docker-engine-setup
+4. Hit up docker using the following command from cmd:
+	sudo dockerd
+5. Run your code of image in another terminal
